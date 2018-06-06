@@ -1,0 +1,18 @@
+
+/* when printing the page, do not hide spoiler text */
+@media print {
+    .spoiler {
+        display: inherit !important;
+    }
+}
+
+/* for spoiler toggle text */
+.link-like {
+    color: #4178b6;
+    cursor: pointer;
+}
+
+/* for indenting spoiler body text */
+.indent {
+    margin-left: 1em;
+}
